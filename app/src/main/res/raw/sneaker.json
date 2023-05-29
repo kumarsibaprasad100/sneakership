@@ -1,0 +1,255 @@
+
+[
+  {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "brand": "Nike",
+    "colorway": "White",
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://example.com/image1.jpg",
+      "smallImageUrl": "https://example.com/small_image1.jpg",
+      "thumbUrl": "https://example.com/thumb_image1.jpg"
+    },
+    "releaseDate": "2022-12-15",
+    "retailPrice": 120,
+    "styleId": "ABC123",
+    "shoe": "Air Jordan 1",
+    "name": "Air Jordan 1 Retro High OG",
+    "title": "Air Jordan 1 Retro High OG - Black/White",
+    "year": 2022
+  },
+  {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa7",
+    "brand": "Adidas",
+    "colorway": "Grey",
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://example.com/image2.jpg",
+      "smallImageUrl": "https://example.com/small_image2.jpg",
+      "thumbUrl": "https://example.com/thumb_image2.jpg"
+    },
+    "releaseDate": "2023-01-10",
+    "retailPrice": 100,
+    "styleId": "DEF456",
+    "shoe": "Ultra Boost",
+    "name": "Adidas Ultra Boost",
+    "title": "Adidas Ultra Boost - Grey/Red",
+    "year": 2023
+  },
+  {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa8",
+    "brand": "Puma",
+    "colorway": "Black",
+    "gender": "Female",
+    "media": {
+      "imageUrl": "https://example.com/image3.jpg",
+      "smallImageUrl": "https://example.com/small_image3.jpg",
+      "thumbUrl": "https://example.com/thumb_image3.jpg"
+    },
+    "releaseDate": "2023-02-05",
+    "retailPrice": 80,
+    "styleId": "GHI789",
+    "shoe": "Puma Suede",
+    "name": "Puma Suede Classic",
+    "title": "Puma Suede Classic - White/Black",
+    "year": 2023
+  },
+  {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa9",
+    "brand": "Converse",
+    "colorway": "Navy",
+    "gender": "Unisex",
+    "media": {
+      "imageUrl": "https://example.com/image4.jpg",
+      "smallImageUrl": "https://example.com/small_image4.jpg",
+      "thumbUrl": "https://example.com/thumb_image4.jpg"
+    },
+    "releaseDate": "2023-03-20",
+    "retailPrice": 360,
+    "styleId": "JKL012",
+    "shoe": "Converse Chuck Taylor",
+    "name": "Converse Chuck Taylor All Star",
+    "title": "Converse Chuck Taylor All Star - Navy/White",
+    "year": 2023
+  },
+  {
+    "id": "3fa85f64-5719-4562-b3fc-2c963f66afa9",
+    "brand": "Converse",
+    "colorway": "Navy",
+    "gender": "Unisex",
+    "media": {
+      "imageUrl": "https://example.com/image4.jpg",
+      "smallImageUrl": "https://example.com/small_image4.jpg",
+      "thumbUrl": "https://example.com/thumb_image4.jpg"
+    },
+    "releaseDate": "2023-03-20",
+    "retailPrice": 150,
+    "styleId": "JKL012",
+    "shoe": "Converse Star",
+    "name": "Converse Chuck Taylor All Star",
+    "title": "Converse Chuck Taylor All Star - Navy/White",
+    "year": 2023
+  },
+  {
+  "id": "3fa85f64-5715-4562-b3fc-2c963f66afa9",
+  "brand": "Nike",
+  "colorway": "White",
+  "gender": "Male",
+  "media": {
+    "imageUrl": "https://example.com/image4.jpg",
+    "smallImageUrl": "https://example.com/small_image4.jpg",
+    "thumbUrl": "https://example.com/thumb_image4.jpg"
+  },
+  "releaseDate": "2023-03-20",
+  "retailPrice": 60,
+  "styleId": "JKL012",
+  "shoe": "Air Jordan 2",
+  "name": "Air Jordan Pro Max",
+  "title": "Air Jordan Pro Max All Star - Navy/White",
+  "year": 2023
+},
+  {
+    "id": "3fa85f04-5715-4562-b3fc-2c963f66afa9",
+    "brand": "Nike",
+    "colorway": "Navy",
+    "gender": "Unisex",
+    "media": {
+      "imageUrl": "https://example.com/image4.jpg",
+      "smallImageUrl": "https://example.com/small_image4.jpg",
+      "thumbUrl": "https://example.com/thumb_image4.jpg"
+    },
+    "releaseDate": "2023-03-20",
+    "retailPrice": 90,
+    "styleId": "JKL012",
+    "shoe": "Air Jordan Pro 2",
+    "name": "Air Jordan Pro 2 All Star",
+    "title": "Air Jordan Pro 2 All Star - Navy/White",
+    "year": 2023
+  },
+  {
+    "id": "3fa95f64-5715-4562-b3fc-2c963f66afa9",
+    "brand": "Nike",
+    "colorway": "White",
+    "gender": "Unisex",
+    "media": {
+      "imageUrl": "https://example.com/image4.jpg",
+      "smallImageUrl": "https://example.com/small_image4.jpg",
+      "thumbUrl": "https://example.com/thumb_image4.jpg"
+    },
+    "releaseDate": "2023-03-20",
+    "retailPrice": 80,
+    "styleId": "JKL012",
+    "shoe": "Air Jordan Pro 3",
+    "name": "Air Jordan Pro 3 All Star",
+    "title": "Air Jordan Pro 3 All Star - Navy/White",
+    "year": 2023
+  },
+  {
+    "id": "1f2abfe8-9a3b-4a6d-8dd9-682dd6287a7a",
+    "brand": "Nike",
+    "colorway": "Black",
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://example.com/image1.jpg",
+      "smallImageUrl": "https://example.com/small_image1.jpg",
+      "thumbUrl": "https://example.com/thumb_image1.jpg"
+    },
+    "releaseDate": "2023-01-15",
+    "retailPrice": 100,
+    "styleId": "ABC001",
+    "shoe": "Air Max 1",
+    "name": "Air Max 1 Black/Red",
+    "title": "Air Max 1 Black/Red - Men",
+    "year": 2023
+  },
+  {
+    "id": "2df3abbc-8b9c-4d6e-a1f2-3e4f5d6e7f8g",
+    "brand": "Adidas",
+    "colorway": "Blue",
+    "gender": "Female",
+    "media": {
+      "imageUrl": "https://example.com/image2.jpg",
+      "smallImageUrl": "https://example.com/small_image2.jpg",
+      "thumbUrl": "https://example.com/thumb_image2.jpg"
+    },
+    "releaseDate": "2023-02-10",
+    "retailPrice": 90,
+    "styleId": "DEF002",
+    "shoe": "Superstar",
+    "name": "Superstar White/Blue",
+    "title": "Superstar White/Blue - Women",
+    "year": 2023
+  },
+  {
+    "id": "3fa95f64-5715-4562-b3fc-2c963f66afa9",
+    "brand": "Nike",
+    "colorway": "Navy",
+    "gender": "Unisex",
+    "media": {
+      "imageUrl": "https://example.com/image3.jpg",
+      "smallImageUrl": "https://example.com/small_image3.jpg",
+      "thumbUrl": "https://example.com/thumb_image3.jpg"
+    },
+    "releaseDate": "2023-03-20",
+    "retailPrice": 80,
+    "styleId": "JKL012",
+    "shoe": "Air Jordan Pro 3",
+    "name": "Air Jordan Pro 3 All Star",
+    "title": "Air Jordan Pro 3 All Star - Navy/White",
+    "year": 2023
+  },
+  {
+    "id": "5a6b7c8d-9e0f-1a2b-3c4d-5e6f7g8h9i0j",
+    "brand": "New Balance",
+    "colorway": "Pink",
+    "gender": "Female",
+    "media": {
+      "imageUrl": "https://example.com/image5.jpg",
+      "smallImageUrl": "https://example.com/small_image5.jpg",
+      "thumbUrl": "https://example.com/thumb_image5.jpg"
+    },
+    "releaseDate": "2023-05-12",
+    "retailPrice": 95,
+    "styleId": "PQR004",
+    "shoe": "574",
+    "name": "574 Grey/Pink",
+    "title": "574 Grey/Pink - Women",
+    "year": 2023
+  },
+  {
+    "id": "6b7c8d9e-0f1a-2b3c-4d5e-6f7g8h9i0j1",
+    "brand": "Reebok",
+    "colorway": "Grey",
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://example.com/image6.jpg",
+      "smallImageUrl": "https://example.com/small_image6.jpg",
+      "thumbUrl": "https://example.com/thumb_image6.jpg"
+    },
+    "releaseDate": "2023-06-28",
+    "retailPrice": 120,
+    "styleId": "STU005",
+    "shoe": "Classic Leather",
+    "name": "Classic Leather White/Grey",
+    "title": "Classic Leather White/Grey - Men",
+    "year": 2023
+  },
+  {
+    "id": "7c8d9e0f-1a2b-3c4d-5e6f-7g8h9i0j1a",
+    "brand": "Adidas",
+    "colorway": "Black",
+    "gender": "Unisex",
+    "media": {
+      "imageUrl": "https://example.com/image7.jpg",
+      "smallImageUrl": "https://example.com/small_image7.jpg",
+      "thumbUrl": "https://example.com/thumb_image7.jpg"
+    },
+    "releaseDate": "2023-07-17",
+    "retailPrice": 85,
+    "styleId": "VWX006",
+    "shoe": "Stan Smith",
+    "name": "Stan Smith Black/White",
+    "title": "Stan Smith Black/White - Unisex",
+    "year": 2023
+  }
+]

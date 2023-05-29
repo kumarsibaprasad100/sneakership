@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">SneakerShip</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="popular">Popular</string>
+    <string name="sortby">SortBy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nike_airmax_2021">Nike AirMax 2021</string>
+    <string name="desc">Nike AirMax 2021 Nike AirMax 2021 Nike AirMax 2021 Nike AirMax 2021 Nike AirMax 2021 Nike AirMax 2021</string>
+    <string name="size_uk">size(UK) :</string>
+    <string name="colour">Colour :</string>
+    <string name="price">Price :</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="check_out">$ Check Out</string>
+    <string name="cart">Cart</string>
+    <string name="order_details">Order Details</string>
+    <string name="subtotal">Subtotal :</string>
+    <string name="taxes_and_charges">Taxes and Charges :</string>
+    <string name="total">Total :</string>
+    <string name="goToCart">Go to cart</string>
+    <string name="selectSize">Please Select Size/Color</string>
+    <string name="success">Order Placed Successfully</string>
+    <string name="addedToCart">Item added to cart..</string>
+    <string name="addedInCart">Added in cart</string>
+
+    <string-array name="gender">
+        <item>All</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Unisex</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_Container"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="@dimen/dp_twenty" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="@dimen/dp_twenty" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/Heading_Anton"
+        android:id="@+id/tv_appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="@dimen/sp_twentyFive"
+        android:layout_marginTop="@dimen/dp_thirty"
+        android:textColor="@color/app_color"
+        app:layout_constraintStart_toStartOf="@id/guideline_start"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_appTitle"
+        app:layout_constraintEnd_toEndOf="@id/guideline_end"
+        app:layout_constraintTop_toTopOf="@+id/tv_appTitle"
+        app:searchIcon="@drawable/ic_search" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/sub_heading_archivo_bold"
+        android:id="@+id/tv_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_ten"
+        android:text="@string/popular"
+        app:layout_constraintStart_toStartOf="@id/guideline_start"
+        app:layout_constraintTop_toBottomOf="@+id/tv_appTitle" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/all_desc_archivo_20sp"
+        android:id="@+id/tv_sort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sortby"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_heading"
+        app:layout_constraintEnd_toStartOf="@+id/tv_spinner"
+        app:layout_constraintTop_toTopOf="@+id/tv_heading" />
+
+    <Spinner
+        android:id="@+id/tv_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_five"
+        android:background="@drawable/arrow_down"
+        android:backgroundTint="@color/gray_textColor"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_sort"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_end"
+        app:layout_constraintTop_toTopOf="@+id/tv_sort" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_sneaker"
+        android:layout_width="@dimen/dp_zero"
+        android:layout_height="@dimen/dp_zero"
+        android:layout_marginTop="@dimen/dp_ten"
+        tools:itemCount="3"
+        tools:listitem="@layout/item_sneakers_layout"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:layout_constraintEnd_toEndOf="@id/guideline_end"
+        app:layout_constraintStart_toStartOf="@id/guideline_start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_heading" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
